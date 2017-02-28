@@ -1,6 +1,8 @@
 # opensubz
 Two-click subtitle downloader script
 
+![D9TCBu](http://i.makeagif.com/media/2-28-2017/D9TCBu.gif)
+
 ## Requirements
 * [Python 3.x](https://www.python.org/downloads/)
 * [opensubtitles.org](https://www.opensubtitles.org/newuser) Account
