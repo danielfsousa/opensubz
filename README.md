@@ -1,5 +1,5 @@
 # opensubz
-Two-click subtitle search script
+Two-click subtitle downloader script
 
 ## Requirements
 * [Python 3.x](https://www.python.org/downloads/)
