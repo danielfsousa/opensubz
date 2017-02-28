@@ -41,5 +41,7 @@ $ opensubz --search "C:\Movies" --language "eng"
 ```
 
 **Context menu:**
+
 Rigth click on any folder than click "Download Subtitles"
+![context menu](https://cloud.githubusercontent.com/assets/11372312/23395366/f5d0ea4c-fd6c-11e6-95b8-11ce9c3990eb.png)
 
