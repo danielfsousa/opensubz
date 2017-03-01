@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='opensubz',
-    version='0.1.2',
+    version='0.1.3',
     description='Easily search opensubtitles subtitles',
     long_description=long_description,
     url='https://github.com/danielfsousa/opensubz',
