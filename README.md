@@ -8,13 +8,14 @@ Two-click subtitle downloader script
 * [opensubtitles.org](https://www.opensubtitles.org/newuser) Account
 
 ## How to Install
-Clone project
+Install via pip
 ```bash
-$ git clone https://github.com/danielfsousa/opensubz.git
+$ pip install opensubz
 ```
 
-Install package
+Install via github
 ```bash
+$ git clone https://github.com/danielfsousa/opensubz.git
 $ cd opensubz
 $ pip install . --upgrade
 ```
