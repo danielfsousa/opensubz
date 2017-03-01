@@ -9,11 +9,11 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='opensubz',
-    version='0.1.3',
-    description='Easily search opensubtitles subtitles',
+    version='0.1.4',
+    description='Two-click subtitle downloader script',
     long_description=long_description,
     url='https://github.com/danielfsousa/opensubz',
-    download_url='https://github.com/danielfsousa/opensubz/archive/0.1.3.tar.gz',
+    download_url='https://github.com/danielfsousa/opensubz/archive/0.1.4.tar.gz',
     author='Daniel Sousa',
     author_email='sousa.dfs@gmail.com',
     license='MIT',
