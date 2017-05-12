@@ -24,14 +24,11 @@ class OpenSubz(object):
             print('\nI haven\'t found any video file.\n')
 
         if len(result['nao_achou']) > 0:
-            print('\nI haven\'t found any subtitle that fits your video file\n')
+            print('\nI haven\'t found any subtitle that fits these video files:\n')
             for file in result['nao_achou']:
                 print(os.path.basename(file))
-            print('\nDo you want to keep searching? (y/n) (Maybe the subtitles aren\'t perfectly synchronized)')
-            response = str(input('> ')).lower()
-
-            if response == 'yes' or response == 'y':
-                OpenSubz._download_by_name(result['nao_achou'], language)
+            print('\nTrying to get all subtitles...')
+            OpenSubz._download_by_name(result['nao_achou'], language)
 
         input('\nPress any key to exit.')
 
@@ -167,3 +164,5 @@ class OpenSubz(object):
                                       'download': data[num]['ZipDownloadLink']}]
 
                             OpenSubz._save_subtitles(links, DIRETORIO)
+                    else:
+                        print('\nSorry, I could not find subtitles for: %s' % NOME)
